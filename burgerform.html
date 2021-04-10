@@ -3,16 +3,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Burger </title>
+    <link rel="stylesheet" href="burgerform.css">
 </head>
 <body>
-    <div style="margin-left:10%; margin-right: 10%;">
+    <div id="mainDiv">
         <img src="https://mccarthy-silva.github.io/HTML-Forms/hamburger.svg">
-        <hr style=>
-        <form action="class.html" style="margin: 0 auto; width: 30%; border: 2px solid skyblue; padding: 10px; " method="GET" >
-        <div style="text-align: center;">
+        <hr>
+        <form action="class.html" id="form" method="GET" >
+        <div id="maindivinform">
             <h1> Welcome</h1>
-            <h2 style="font-style:italic;">Please select Burger Options</h2>
+            <h2 id="h2indiv">Please select Burger Options</h2>
             <div>
                 <p>What type of protein would you like to include in your burger? Please write with details.</p>
                 <input type="text" name="proteinquestion" id ='protein'>
@@ -33,7 +34,7 @@
             </div>
             <div>
                 <p>What toppings would you like?</p>
-                <div style='text-align: left; margin-left: 25%;'>
+                <div  id="checkbox">
                     <input type="checkbox" name='Lettuce' id="Lettuce">
                     <label for='Lettuce'>Lettuce</label>
                     <br>

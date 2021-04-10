@@ -1,0 +1,23 @@
+#mainDiv{
+    margin-left:10%; 
+    margin-right: 10%;
+}
+
+#form {
+    margin: 0 auto; 
+    width: 30%; 
+    border: 2px solid skyblue; 
+    padding: 10px; 
+}
+
+#maindivinform{
+    text-align: center;
+}
+#h2indiv{
+    font-style:italic;
+}
+
+#checkbox {
+    text-align: left; 
+    margin-left: 25%;
+}
